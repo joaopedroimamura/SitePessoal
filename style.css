@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap');
+
+@font-face {
+    font-family: Gidole;
+    src: url(./components/fonts/Gidole-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#title {
+    font-family: Gidole;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #416a59;
+    padding: 2px; 
+    width: 400px;
+}
+
+body {
+
+}
+
+.texto_sobre {
+    margin: 5px 20px 10px 5px;
+    font-family: Gidole;
+    text-align: justify;
+    line-height: 20px;
+    width: 400px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item {
+    font-family: Gidole;
+    color: #416a59;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.code_image {
+    height: 500px;
+}
+
+.sobre_mim {
+    width: 600px;
+    max-width: 600px;
+    background: #e8e8e8;
+    padding-bottom: 30px;
+}
+
+.links img {
+    width: 30px;
+    height: 30px;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.links {
+    margin: 5px 20px 10px 5px;
+}
+
+.contatos h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.formacao h2 {
+    color: #e8e8e8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto_formacao {
+    font-family: Gidole;
+    color: #e8e8e8;
+    margin: 5px 10px 20px 5px;
+    width: 400px;
+}
+
+.formacao {
+    background: #303030; 
+}
+
+h2, h3 {
+    text-align: left;
+    margin-left: 5px;
+    font-family: Gidole;
+}
+
+.introducao {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.informacoes_iniciais {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 600px;
+    color: #303030;
+}
+
+.experiencias {
+    display: grid;
+    grid-template-columns: 1fr 4fr 6fr;
+    padding-right: 20px;
+}
+
+.grid_title {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.experiencias_habilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.habilidades {
+    width: 300px;
+}
+
+.logo { 
+    width: 100px;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.curso {
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.faculdade {
+    font-weight: 600;
+}
+
+.data_ferramentas {
+    margin: 20px 0 0 40px;
+}
+
+.code_image img {
+    height: 100%;
+}
+
+.empresa {
+    text-align: left;
+    margin-left: 5px;
+}
+
+/* .job_description h3 {
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 20px;
+} */
+
+.lista_experiencia {
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 20px;
+    text-align: left;
+    font-family: Gidole;
+}
+
+.lista_proficiencias {
+    margin-top: 40px;
+    line-height: 20px;
+}
+
+.data_ferramentas_appen {
+    margin: 25px 0 0 40px;
+    font-family: Gidole;
+}
+
+.job_description_appen {
+    margin-top: 23px;
+}
+
+.job_description_singular {
+    margin-top: 28px;
+}
+
+.data_ferramentas_singular {
+    margin: 30px 0 0 40px;
+    font-family: Gidole;
+}
+
+.data_ferramentas_financeira {
+    margin: 30px 0 0 40px;
+    font-family: Gidole;
+}
+
+.job_description_financeira {
+    margin-top: 28px;
+}
+
+.data_ferramentas_energia {
+    margin: 25px 0 0 40px;
+    font-family: Gidole;
+}
+
+.job_description_energia {
+    margin-top: 23px;
+}
+
+.data_ferramentas_eneva {
+    margin: 37px 0 0 40px;
+    font-family: Gidole;
+}
+
+.job_description_eneva {
+    margin-top: 35px;
+}
+
+.data {
+    border: 0.4px solid;
+    width: 105px;
+    height: 20px;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 5 px;
+}
