@@ -9,235 +9,71 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="menu">
-            <a class="menu-item">Lorem</a>
-            <a class="menu-item">Lorem</a>
-            <a class="menu-item">Lorem</a>
-            <a class="menu-item">Lorem</a>
-            <a class="menu-item">Lorem</a>
-        </nav>
-    </header>
-
     <main class="content">
-        <!-- <div><img src="components/images/background-image.jpg" alt="Imagem da natureza"></div> -->
-        <div class="introducao">
-            <div class="code_image"> <img id="image" src="components/images/code-image.jpg" alt="Imagem de código"></img> </div>
+        <div class="introduction">
+            <header>
+                <nav class="menu">
+                    <a class="menu-item">HOME</a>
+                    <a class="menu-item" href="#about">ABOUT</a>
+                    <a class="menu-item">JOB EXPERIENCE</a>
+                    <a class="menu-item">CONTACTS</a>
+                    <a class="menu-item">SKILLS</a>
+                </nav>
+            </header>   
+
+            <div class="home">
+                <h1 id="title">João Pedro Yuji Imamura, 22</h1>
+                <h2 id="subtitle">Data Science | Software Development</h2>
+                <h3 id="languages">CSS | HTML | JavaScript | Python | SQL</h3>
+            </div>
+
+            <div class="divisor"><hr></div>
             
-            <div class="informacoes_iniciais">
-                <div class="sobre_mim">
-                    <h1 id="title">João Pedro Yuji Imamura, 22</h1>
-                    <div class="section_title"> <h2>Sobre mim</h2> </div>
-
-                    <p class="texto_sobre">
-                        Atualmente sou estagiário de dados em uma empresa integrada com foco em energia e possuo 
-                        muito interesse nas áreas relacionadas à programação e matemática, por isso pretendo seguir 
-                        para a ciência de dados ou para o desenvolvimento de software. 
-                    </p>
-                
-                    <div class="contatos">
-                        <h3>Contatos</h3>
-    
-                        <ul class="links">
-                            <li><a href="https://www.github.com/joaopedroimamura" target="_blank">
-                                <img src="components/images/github.svg" alt="Logo Github"></img>
-                            </a></li>
-                            <li><a href="https://www.linkedin.com.br/in/joaopedroimamura" target="_blank">
-                                <img src="components/images/linkedin.svg" alt="Logo Linkedin"></img>
-                            </a></li>
-                            <li><a href="mailto:joaopedroimamura@hotmail.com" target="_blank">
-                                <img src="components/images/email.svg" alt="Logo E-mail"></img>
-                            </a></li>
-                            <li><a class="whatsapp" href="https://api.whatsapp.com/send?phone=5511976327337" target="_blank">
-                                <img src="components/images/whatsapp.svg" alt="Logo Whatsapp"></img>
-                            </a></li>
-                        </ul>
-                    </div>
-                </div>
-               
-                <div class="formacao"> 
-                    <h2>Formação</h2>
-                    <div class="texto_formacao">
-                        <p class="faculdade"> Universidade Federal do ABC - UFABC </p> 
-                        <p class="curso"> Ciência e Tecnologia - Bacharel (2019 - 2022) </p>
-          
-                        <p class="faculdade"> Universidade Federal do ABC - UFABC </p>
-                        <p class="curso"> Ciência da Computação - Bacharel (2019 - 2023) </p>
-        
-                        <p class="faculdade"> Universidade Federal do ABC - UFABC</p> 
-                        <p class="curso"> Matemática - Bacharel (2019 - 2024)</p>  
-                    </div>
-                </div>
-            </div>            
-        </div>
-
-        <div class="experiencias_habilidades"> <!-- flex parent-->
-            <div class="experiencias"> <!-- grid parent e flex child-->
-                <div class="grid_title"><h2>Experiências</h2></div>   
-                <div class="logo"><img src="components/images/appen-logo.png" alt="Logo-Appen"></img></div> <!-- grid child -->
-    
-                <div class="data_ferramentas_appen"> <!-- grid child -->
-                    <ul>
-                        <li class="data">jan/19 - jan/20</li>
-    
-                        <ol class="lista_proficiencias">
-                            <li>Inglês escrito</li>
-                        </ol>
-                    </ul>
-                </div>
-    
-                <div class="job_description_appen"> <!-- grid child-->
-                    <h3>Search Engine Evaluator</h3>
-                    <a href="https://www.linkedin.com/company/appen/" target="_blank">
-                        <p class="empresa">Appen Limited (Temporário)</p>
-                    </a>
-                    <ul class="lista_experiencia"> 
-                        <li>Ferramenta exclusiva contida no aplicativo do Facebook</li>
-                        <li>Fornecer dados que otimizem a recomendação de anúncios</li>
-                        <li>Medir precisão de anúncios</li>
-                        <li>Melhorar efetividade de inteligência artificial</li>
-                    </ul>
-                </div>
-    
-    
-                <div class="logo"> <img src="components/images/singular-logo.png" alt="Logo Singular"> </img></div> <!-- grid child -->
-    
-                <div class="data_ferramentas_singular"> <!-- grid child -->
-                    <ul>
-                        <li class="data">fev/20 - nov/21</li>
-    
-                        <ol class="lista_proficiencias">
-                            <li>Base Matemática</li>
-                            <li>Raciocínio Lógico</li>
-                        </ol>
-                    </ul>
-                </div> 
-    
-                <div class="job_description_singular"> <!-- grid child -->
-                    <h3>Tutoria de Matemática</h3>
-                    <a href="https://www.linkedin.com/company/colegio-singular/" target="_blank">
-                        <p class="empresa">Colégio Singular (Estágio)</p>
-                    </a>
-                    <ul class="lista_experiencia">
-                        <li>Atuar no Ensino Fundamental 2</li>
-                        <li>Desenvolver listas de exercícios</li>
-                        <li>Ministrar aulas de reforço</li>
-                        <li>Promover resolução de questões</li>
-                    </ul>
-                </div>
-    
-                <div class="logo"><img src="components/images/financeira-logo.png" alt="Logo Focus Financeira"></div> <!-- grid child -->
-    
-                <div class="data_ferramentas_financeira"> <!-- grid child -->
-                    <ul>
-                        <li class="data">nov/21 - mar/22</li>
-    
-                        <ol class="lista_proficiencias">
-                            <li>Excel</li>
-                            <li>Power BI</li>
-                            <li>SQL Server</li>
-                        </ol>
-                    </ul>
-                </div>
-    
-                <div class="job_description_financeira"> <!-- grid child -->
-                    <h3>Business Intelligence</h3>
-                    <a href="https://www.linkedin.com/company/focusfinanceira/" target="_blank">
-                        <p class="empresa">Focus Financeira (Estágio)</p>
-                    </a>
-                    <ul class="lista_experiencia">
-                        <li>Automatizar relatórios</li> 
-                        <li>Compilar dados do mercado de crédito</li>
-                        <li>Contatar áreas de negócio</li>
-                        <li>Criar dashboards</li>
-                        <li>Obter insights através da análise de dados</li>
-                    </ul>
-                </div>
-    
-                <div class="logo"> <img src="components/images/energia-logo.png" alt="Logo Focus Energia"></div> <!-- grid child -->
-    
-                <div class="data_ferramentas_energia"> <!-- grid child -->
-                    <ul>
-                        <li class="data">nov/21 - mar/22</li>
-    
-                        <ol class="lista_proficiencias">
-                            <li>Big Query</li>
-                            <li>Excel</li>
-                            <li>Power Apps</li>
-                            <li>Power BI</li>
-                            <li>Python</li>
-                            <li>QGIS</li>
-                            <li>Word</li>
-                        </ol>
-                    </ul>
-                </div>
-    
-                <div class="job_description_energia"> <!-- grid child -->
-                    <h3>Business Intelligence</h3>
-                    <p class="empresa">Focus Energia (Estágio)</p>
-                    <ul class="lista_experiencia">
-                        <li>Automatizar relatórios</li>
-                        <li>Compilar dados do mercado livre de energia</li>
-                        <li>Contatar áreas de negócio</li>
-                        <li>Criar aplicativos low-code</li>
-                        <li>Criar dashboards</li>
-                        <li>Obter insights através da análise de dados</li>
-                    </ul>
-                </div>
-    
-                <div class="logo"> <img src="components/images/eneva-logo.png" alt="Logo Eneva"> </div> <!-- grid child -->
-    
-                <div class="data_ferramentas_eneva"> <!-- grid child -->
-                    <ul>
-                        <li class="data">mar/22 - atual</li>
-    
-                        <ol class="lista_proficiencias">
-                            <li>Git</li>
-                            <li>MySQL</li>
-                            <li>Python</li>
-                            <li>PostgreSQL</li>
-                        </ol>
-                    </ul>
-                </div>
-    
-    
-                <div class="job_description_eneva"> <!-- grid child -->
-                    <h3>Dados & Analytics</h3>
-                    <a href="www.linkedin.com/company/eneva" target="_blank">
-                        <p class="empresa">Eneva (Estágio)</p>
-                    </a>
-    
-                    <ul class="lista_experiencia">
-                        <li>Administrar banco de dados</li>
-                        <li>Criar robôs que fazem o processo de extração, tratamento e upload de dados</li>
-                    </ul>
-                </div>   
-            </div>
-    
-            <div class="habilidades"> <!-- flex child -->
-                <h2> Habilidades </h2>
-    
-                <h3> Idiomas </h3>
-                <ul> 
-                    <li> Inglês - Intermediário </li>
+            <div class="contacts">
+                <ul>
+                    <li>
+                        <a href="https://www.github.com/joaopedroimamura" target="_blank">
+                            <img src="components/images/github.png" alt="Logo Github">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/joaopedroimamura" target="_blank">
+                            <img src="components/images/linkedin.png" alt="Logo Linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:joaopedroimamura@hotmail.com" target="_blank">
+                            <img src="components/images/email.png" alt="Logo E-mail">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=5511976327337" target="_blank">
+                            <img src="components/images/whatsapp.png" alt="Logo Whatsapp">
+                        </a>
+                    </li>
                 </ul>
-    
-                <h3> Ferramentas </h3>
-                <ul> 
-                    <li> Excel - Avançado</li>
-                    <li> Git - Básico </li>
-                    <li> Power Apps - Intermediário </li>
-                    <li> Power BI - Intermediário </li>
-                </ul>
-    
-                <h3> Linguagens </h3>
-                <ul> 
-                    <li> C - Intermediário </li>
-                    <li> Java - Básico</li>
-                    <li> Python - Intermediário </li>
-                    <li> SQL - Intermediário </li>
-                </ul> 
             </div>
+            
+            <div id="about" class="about_me">
+                <div class="photo"><img src="components/images/formal.jpg" alt="Photo of me"></div>
+
+                <div class="about_me_text">
+                    <h2>About me</h2>
+                    <p class="intro_text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quibusdam, dignissimos vel 
+                        tempore odit quasi optio repudiandae at placeat nesciunt repellat enim nisi cupiditate. 
+                        Nesciunt error consectetur eveniet explicabo harum aspernatur quasi cupiditate laboriosam 
+                        repudiandae sint, dolores nostrum. Rem accusantium inventore deserunt numquam ipsa autem 
+                        dolorum quod non adipisci animi impedit, alias voluptate, vero, consectetur sunt et optio 
+                        labore voluptates. Numquam atque temporibus et beatae quam ab cumque in tempore, expedita 
+                        at, quisquam animi pariatur omnis a veniam placeat optio.
+                    </p>    
+
+                    <h2>Job Conditions</h2>
+                    <p class="intro_text">Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+
         </div>
     </main>
 </body>

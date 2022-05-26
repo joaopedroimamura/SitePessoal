@@ -1,0 +1,24 @@
+                   <p class="texto_sobre">
+                        Atualmente sou estagiário de dados em uma empresa integrada com foco em energia e possuo 
+                        muito interesse nas áreas relacionadas à programação e matemática, por isso pretendo seguir 
+                        para a ciência de dados ou para o desenvolvimento de software. 
+                    </p>
+                
+                    <div class="contatos">
+                        <h3>Contatos</h3>
+    
+                        <ul class="links">
+                            <li><a href="https://www.github.com/joaopedroimamura" target="_blank">
+                                <img src="components/images/github.svg" alt="Logo Github"></img>
+                            </a></li>
+                            <li><a href="https://www.linkedin.com.br/in/joaopedroimamura" target="_blank">
+                                <img src="components/images/linkedin.svg" alt="Logo Linkedin"></img>
+                            </a></li>
+                            <li><a href="mailto:joaopedroimamura@hotmail.com" target="_blank">
+                                <img src="components/images/email.svg" alt="Logo E-mail"></img>
+                            </a></li>
+                            <li><a class="whatsapp" href="https://api.whatsapp.com/send?phone=5511976327337" target="_blank">
+                                <img src="components/images/whatsapp.svg" alt="Logo Whatsapp"></img>
+                            </a></li>
+                        </ul>
+                    </div>
