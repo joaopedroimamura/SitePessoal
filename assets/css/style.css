@@ -1,11 +1,11 @@
 @font-face {
     font-family: Simplifica;
-    src: url(./components/fonts/SIMPLIFICA\ Typeface.ttf);
+    src: url(./../components/fonts/SIMPLIFICA\ Typeface.ttf);
 }
 
 @font-face {
     font-family: Raleway;
-    src: url(components/fonts/Raleway-Light.ttf);
+    src: url(./../components/fonts/Raleway-Light.ttf);
 }
 
 * {
@@ -94,10 +94,14 @@ hr {
 }
 
 .introduction {
-    background-image: url(components/images/background-image-2.jpg);
+    background-image: url(./../components/images/background-image-2.jpg);
     background-size: 100% 100%;
     height: 800px;
     width: 100%;
+}
+
+.photo {
+    width: 400px;
 }
 
 .photo img {
@@ -116,7 +120,7 @@ hr {
     padding-bottom: 100px;
 }
 
-.about_me_text h2 {
+ .about_me h2 {
     font-family: Simplifica;
     letter-spacing: 3px;
     margin-top: 40px;
@@ -127,7 +131,7 @@ hr {
 
 .about_me_text {
     margin-left: 100px;
-    width: 450px;
+    width: 710px;
     margin-top: 20px;
 }
 
@@ -136,7 +140,6 @@ hr {
     letter-spacing: 2px;
     line-height: 20px;
     text-align: justify;
-    color: #FFFFF0;
     font-weight: normal;
     font-size: 12px;
     font-family: Raleway;
@@ -146,4 +149,85 @@ hr {
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+#job_experience {
+    background: #202020;
+}
+
+#title_jobs {
+    background: #202020;
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+
+#title_jobs h2 {
+    font-family: Simplifica;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #FFFFF0;
+}
+
+.job_description {
+    width: 220px;
+    margin-left: 90px;
+}
+
+#logo_appen {
+    width: 128px;
+    height: auto;
+    margin-left: 280px;
+    margin-top: 0;
+}
+
+#logo_singular {
+    width: 128px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+#logo_focusfinanceira {
+    width: 128px;
+    height: auto;
+    margin-left: 280px;
+    margin-top: 0;
+}
+
+#logo_focusenergia {
+    width: 128px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+#logo_eneva {
+    width: 128px;
+    height: auto;
+    margin-left: 280px;
+    margin-top: 0;
+}
+
+#job_experience {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.job_text {
+    margin-top: 10px;
+    font-family: Raleway;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: #A0A0A0;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+h3, h4, h5 {
+    font-family: Simplifica;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+    color: #FFFFF0;
 }
